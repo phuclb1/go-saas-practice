@@ -1,17 +1,17 @@
-# project_name 
+# go_saas_practice 
 
-project_description 
+Awesome go_saas_practice created by phuclb1 
 
 ### Demo
 
 ### Usage
 ```bash
-project_name <options> <args>
+go_saas_practice <options> <args>
 ```
 
 ### Install
 ```bash
-go install github.com/author_name/project_name@latest
+go install github.com/phuclb1/go_saas_practice@latest
 ```
 
 ---

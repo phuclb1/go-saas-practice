@@ -26,7 +26,7 @@
 #
 
 # This repo's root import path (under GOPATH).
-ROOT := github.com/author_name/project_name
+ROOT := github.com/phuclb1/go_saas_practice
 
 # Target binaries. You can build multiple binaries for a single project.
 TARGETS := scon

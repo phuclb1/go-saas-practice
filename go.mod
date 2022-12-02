@@ -1,4 +1,4 @@
-module github.com/author_name/project_name
+module github.com/phuclb1/go_saas_practice
 
 go 1.17
 

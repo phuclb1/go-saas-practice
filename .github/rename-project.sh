@@ -21,11 +21,11 @@ name_upper="$(echo $name|tr 'a-z' 'A-Z')"
 # for filename in $(find . -name "*.*")
 for filename in $(git ls-files)
 do
-    sed -i "s/author_name/$author/g" $filename
-    sed -i "s/project_urlname/$urlname/g" $filename
-    sed -i "s/project_description/$description/g" $filename
+    sed -i "s/phuclb1/$author/g" $filename
+    sed -i "s/go-saas-practice/$urlname/g" $filename
+    sed -i "s/Awesome go_saas_practice created by phuclb1/$description/g" $filename
     sed "s/PROJECT_NAME/$name_upper/g" $filename
-    sed -i "s/project_name/$name/g" $filename
+    sed -i "s/go_saas_practice/$name/g" $filename
     echo "Renamed $filename"
 done
 

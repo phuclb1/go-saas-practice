@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/author_name/project_name/configs"
+	"github.com/phuclb1/go_saas_practice/configs"
 )
 
 func createFile(filepath string) error {

@@ -1,7 +1,7 @@
-package project_name
+package go_saas_practice
 
 import (
-	"github.com/author_name/project_name/configs"
+	"github.com/phuclb1/go_saas_practice/configs"
 )
 
 type Arguments struct {

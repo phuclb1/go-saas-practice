@@ -4,7 +4,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/author_name/project_name/configs"
+	"github.com/phuclb1/go_saas_practice/configs"
 )
 
 func HttpGet(api string) (string, error) {
